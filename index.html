@@ -311,8 +311,8 @@
 						Или вы можете оставить заявку на сайте и мы сами вам перезвоним в течении получаса!
 					</div>
 					<div class="contacts__field">
-						<form action="mail.php" id="form" class="form__body" method="POST"></form>
-						<h1 class="form__title">Отправить заявку на ремонт</h1>
+						<form action="telegram.php" method="POST">
+						<legend>Отправить заявку на ремонт</legend>
 						<div class="form__item">
 							<label for="formName" class="form__label">Имя*:</label>
 							<input id="formName" type="text" name="name" class="form__input _req" placeholder="Иванов Иван">
@@ -324,14 +324,14 @@
 						<div class="form__item">
 							<label for="formType" class="form__label">Что у вас сломалось?</label>
 							<select name="type" id="formType" class="select__input ">
-								<option value="stiralka">Стиральная машина</option>
-								<option value="posuda">Посудомоечная машина</option>
-								<option value="plita">Плита или варочная панель</option>
-								<option value="holod">Холодильник</option>
-								<option value="konder">Кондиционер</option>
-								<option value="sushilka">Сушильная машина</option>
-								<option value="shkaf">Духовой шкаф</option>
-								<option value="other">Другое</option>
+								<option value="Стиральная машина">Стиральная машина</option>
+								<option value="Посудомоечная машина">Посудомоечная машина</option>
+								<option value="Плита или варочная панель">Плита или варочная панель</option>
+								<option value="Холодильник">Холодильник</option>
+								<option value="Кондиционер">Кондиционер</option>
+								<option value="Сушильная машина">Сушильная машина</option>
+								<option value="Духовой шкаф">Духовой шкаф</option>
+								<option value="Другое">Другое</option>
 							</select>
 						</div>
 						<div class="form__item">
@@ -339,6 +339,7 @@
 							<textarea name="message" id="formMessage" class="form__input" placeholder="Опишите проблему"></textarea>
 						</div>
 						<button type="submit" class="form__button btn">Отправить</button>
+					</form>
 					</div>
 				</div>
 			</div>

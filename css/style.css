@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*обнуление*/
-html {
+html, body {
 		width: 100%;
 		background: url(../img/pattern.png);
 		background-repeat: repeat;
@@ -451,7 +451,7 @@ tr {
 		height: 100%;
 }
 
-.form__title {
+legend {
 		font-size: 24px;
 		font-weight: 700;
 		margin: 0 0 30px 0;
